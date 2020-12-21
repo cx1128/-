@@ -14,4 +14,4 @@ mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.study.pojo
 server:
-  port: 8084
+  port: 8888
