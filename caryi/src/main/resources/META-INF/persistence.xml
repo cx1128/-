@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="crmjpa">
+        <class>com.study.pojo.Carwash</class>
+        <class>com.study.pojo.Emp</class>
+        <class>com.study.pojo.Customer</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:mysql://47.96.228.9:3306/crm"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://47.96.228.9:3306/CRM"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
         </properties>
     </persistence-unit>
